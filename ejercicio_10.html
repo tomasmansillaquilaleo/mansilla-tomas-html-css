@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        th {
+            width: 170px;
+        }
+
+        td {
+            background-color: white;
+            color: blue;
+            font-family: Arial, sans-serif;
+            border: 1px solid black;
+            padding: 8px 4px;
+        }
+
+        td.destacar {
+            background-color: red;
+            color: white;
+        }
+
+        tfoot td {
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+            <tr>
+                <th>planeta</th>
+                <th>sistema solar masa</th>
+                <th>distancia solar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>mercurio</td>
+                <td>0.6</td>
+                <td>57.910.000</td>
+            </tr> 
+            <tr>
+                <td>venus</td>
+                <td>0.82</td>
+                <td>108.200.000</td>
+            </tr>
+            <tr>
+                <td class="destacar">tierra</td>
+                <td class="destacar">1.00</td>
+                <td class="destacar">146.600.000</td>
+            </tr>
+            <tr>
+                <td>marte</td>
+                <td>0.11</td>
+                <td>227.940.000</td>
+            </tr>
+            <tr>
+                <td>jupiter</td>
+                <td>318</td>
+                <td>778.330.000</td>
+            </tr>
+            <tr>
+                <td>saturno</td>
+                <td>95.1</td>
+                <td>1.429.400.000</td>
+            </tr>
+            <tr>
+                <td>urano</td>
+                <td>14.6</td>
+                <td>2.870.990.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">las masas son realativas a la tierra</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
